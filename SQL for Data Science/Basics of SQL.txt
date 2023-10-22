@@ -1,0 +1,31 @@
+Basics of SQL
+
+# This is a single line comment
+
+/*
+This is a multi line comment
+*/
+
+# command to display all databases present
+SHOW DATABASES;
+
+# command to use a database to query
+USE db_name;
+
+# command to display all of the tables present inside a database
+SHOW TABLES;
+
+# command to query the data inside a table
+SELECT * FROM tb_name;
+
+# command to create databases
+/*
+CREATE DATABASE statement is used to create a database
+*/
+CREATE DATABASE db_name;
+
+# command to drop database
+/*
+DROP DATABASE statement is used to drop a database
+*/
+DROP DATABASE db_name;
